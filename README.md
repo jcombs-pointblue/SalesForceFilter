@@ -10,7 +10,7 @@ The authentication server sends authentication responses using the standard OAut
 Lightning Components, the parameter names must be changed before the reply is sent. This filter was developed for use with Microfocus Access Manager
 but it should work for other authentication servers that run in a servlet container.
 
-The filter must be configured in web.xml and the relative position of the filter is important. For Microfocu Access Manager
+The filter must be configured in web.xml and the relative position of the filter is important. For Microfocus Access Manager
 the filter should be placed just before the DebugFilter. The configuration should be similar to the one shown below:
 
       <filter>
