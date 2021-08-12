@@ -8,7 +8,7 @@ Because of this, URL query parameters like those used for OAuth must be prefixed
 
 The authentication server sends authentication responses using the standard OAuth parameter names. To make these responses available to 
 Lightning Components, the parameter names must be changed before the reply is sent. This filter was developed for use with Microfocus Access Manager
-but it should work for other authentication servers that run in servlet container.
+but it should work for other authentication servers that run in a servlet container.
 
 The filter must be configured in web.xml and the relative position of the filter is important. For Microfocu Access Manager
 the filter should be placed just before the DebugFilter. The configuration should be similar to the one shown below:
