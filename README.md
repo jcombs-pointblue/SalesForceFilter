@@ -1,7 +1,7 @@
 # SalesForceFilter
 Servlet filter to add Lightning component namespaces to OAuth responses
 
-Salesforce Lightening components are isolated from web page where they are deployed through the use of a “namespace”
+Salesforce Lightning components are isolated from web page where they are deployed through the use of a “namespace”
 that must be used when the code references objects, functions, and controllers.  The namespace is added as a prefix 
 to the reference.  A component can define it’s own private namespace but if it does not then a default ,“c”, namespace is used . 
 Because of this, URL query parameters like those used for OAuth must be prefixed with the proper namespace to be visible to the component.  
